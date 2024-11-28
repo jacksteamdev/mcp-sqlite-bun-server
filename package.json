@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "bun --watch index.ts",
-    "lint": "eslint . --ext .ts",
-    "lint:fix": "eslint . --ext .ts --fix",
-    "inspect": "bunx @modelcontextprotocol/inspector bun src/index.ts"
+    "lint": "eslint -c eslint.config.mjs",
+    "lint:fix": "eslint -c eslint.config.mjs --fix",
+    "inspect": "bunx @modelcontextprotocol/inspector bun src/index.ts",
+    "setup": "bun scripts/setup.ts"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +24,7 @@
     "eslint": "^9.15.0",
     "globals": "^15.12.0",
     "prettier": "^3.4.1",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.16.0"
   }
 }

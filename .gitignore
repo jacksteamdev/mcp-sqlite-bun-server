@@ -3,3 +3,5 @@ playground
 .vscode
 *.log
 *.sqlite
+.mypy_cache
+package-lock.json
