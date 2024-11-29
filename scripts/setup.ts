@@ -20,7 +20,7 @@ try {
 
 // Get absolute paths
 const bunPath = process.argv[0]; // Current bun executable
-const serverPath = join(import.meta.dir, 'src/index.ts');
+const serverPath = join(import.meta.dir, '../src/index.ts');
 
 // Update config
 config.mcpServers = {

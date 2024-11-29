@@ -18,7 +18,7 @@ import { join } from 'node:path';
 const insights: string[] = [];
 
 // Initialize SQLite database
-const db = new Database(join(import.meta.dirname, '../mcp.sqlite'), {
+const db = new Database(join(import.meta.dirname, '../data.sqlite'), {
   create: true,
 });
 

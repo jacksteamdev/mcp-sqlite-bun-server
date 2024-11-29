@@ -19,7 +19,7 @@ const log = (
   meta?: Record<string, unknown>,
 ) => {
   appendFileSync(
-    join(import.meta.dir, '../mcp-server.log'),
+    join(import.meta.dir, '../server.log'),
     formatMessage(level, message, meta),
   );
 };
