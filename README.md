@@ -3,6 +3,10 @@
 ## Overview
 A Model Context Protocol (MCP) server implementation that provides database interaction and business intelligence capabilities through SQLite. This server enables running SQL queries, analyzing business data, and automatically generating business insight memos.
 
+<a href="https://glama.ai/mcp/servers/le7p83s38c">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/le7p83s38c/badge" alt="SQLite Server MCP server" />
+</a>
+
 ## Installation
 
 1. Install [Bun](https://bun.sh) if you haven't already
